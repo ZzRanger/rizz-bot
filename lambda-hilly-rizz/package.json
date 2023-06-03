@@ -1,0 +1,19 @@
+{
+  "name": "lambda-hilly-rizz",
+  "version": "1.0.0",
+  "description": "TypeScript lambda function for the rizz bot",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --minify --sourcemap --platform=node --target=es2020 --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.115",
+    "esbuild": "^0.17.19"
+  },
+  "dependencies": {
+    "openai": "^3.2.1",
+    "twilio": "^4.11.1"
+  }
+}

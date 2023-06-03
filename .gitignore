@@ -1,0 +1,13 @@
+.terraform
+*.tfvars
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*.zip
+
+# ignore hello world code
+hello_world/
+
+.DS_Store
